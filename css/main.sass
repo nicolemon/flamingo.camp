@@ -1,0 +1,158 @@
+---
+---
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Fira+Mono:400,700|Nanum+Gothic')
+$serif: 'Crimson Text', serif
+$monospace: 'Fira Mono', monospace
+$sansserif: 'Nanum Gothic', sans-serif
+
+$base00: #000000
+$base01: #121212
+$base02: #222222
+$base03: #333333
+$base04: #999999
+$base05: #c1c1c1
+$base06: #999999
+$base07: #c1c1c1
+$base08: #5f8787
+$base09: #aaaaaa
+$base0A: #a06666
+$base0B: #dd9999
+$base0C: #aaaaaa
+$base0D: #888888
+$base0E: #999999
+$base0F: #444444
+
+$black:     $base02
+$gray:      $base03
+$silver:    $base04
+$white:     $base05
+
+$red:       $base08
+$orange:    $base09
+$yellow:    $base0A
+$green:     $base0B
+$cyan:      $base0C
+$blue:      $base0D
+$magenta:   $base0E
+$brown:     $base0F
+
+$bg: $black
+$fg: $yellow
+
+/* whitespace */
+
+*
+  margin: 0
+  padding: 0
+  border: 0
+body
+  line-height: 1.2em
+
+/* text */
+
+body
+  font-family: $serif
+  font-size: 32px
+
+/* colors */
+
+body
+  background-color: $bg
+  color: $fg
+
+/* unorganized ribble rabble */
+
+a, a:link, a:visited, a:hover
+  color: inherit
+  font-family: inherit
+  font-size: inherit
+  text-decoration: none
+p
+  margin-top: 1.0em
+
+.center
+  text-align: center
+.right
+  text-align: right
+.left
+  text-align: left
+
+h1, h2, h3, h4, h5, h6
+  font-family: $sansserif
+  margin-top: 1.0em
+  font-weight: 800
+h1
+  font-size: 200%
+h1.name
+  line-height: 1.5em
+  text-transform: capitalize
+h2
+  font-size: 150%
+h3
+  font-size: 125%
+h4
+  font-size: 112%
+h5
+  font-size: 100%
+h6
+  font-size: 70%
+  text-transform: uppercase
+  letter-spacing: 3px
+
+code
+  font-family: $monospace
+  font-size: inherit
+
+pre
+  margin: 0 0 0 0
+  padding: 3px
+
+#container
+  width: 100%
+  overflow-y: auto
+  position: fixed
+  top: 1.2em
+  bottom: 1.2em
+  left: 1.2em
+  right: 1.2em
+
+#content
+  width: 40%
+  min-width: 650px
+  font-size: 65%
+  position: absolute
+#content a
+  text-decoration: underline
+#content li
+  list-style-position: inside
+  margin-right: 15px
+#content ul li
+  list-style-type: circle
+
+#aside
+  width: 100%
+  position: fixed
+  bottom: 2.2em
+  font-size: 50%
+  text-align: right
+#aside a
+  padding: 1.0em
+  background-color: inherit
+  color: inherit
+
+nav, footer
+  font-family: $sansserif
+  position: fixed
+  width: 100%
+  background-color: $black
+  color: $white
+  text-align: center
+  font-size: 70%
+  z-index: 1
+nav
+  top: 0px
+nav li
+  display: inline
+  list-style-type: none
+footer
+  bottom: 0px
