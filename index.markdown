@@ -4,6 +4,7 @@ layout: default
 
 <div class="page-header text-center">
     <h1>flamingo camp <small>est. 2018</small></h1>
+    <p class="lead">El Mirage Dry Lake Bed, Adelanto, California</p>
 </div>
 
 <div class="center-block">
