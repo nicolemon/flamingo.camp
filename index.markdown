@@ -33,7 +33,7 @@ layout: default
         </div>
     </div>
     <div class="turd">
-        <img class="img-responsive" width="100%" src="https://flamingocamp.sfo2.cdn.digitaloceanspaces.com/the-bike.png" />
+        <img class="img-responsive" width="100%" src="https://flamingocamp.sfo2.cdn.digitaloceanspaces.com/the-bike.jpg" />
         <div class="lead text-center">
             <p><a href="http://iansdi.cc">iansdi.cc</a></p>
         </div>
